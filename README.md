@@ -104,3 +104,7 @@ SSL socks server
     socksProxyServer = SocksServerBuilder.buildAnonymousSSLSocks5Server(1081, builder.build());
     socksProxyServer.start();
 ```
+
+### run
+
+mvn package -Dmaven.test.skip=true
